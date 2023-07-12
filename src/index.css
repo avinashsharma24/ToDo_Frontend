@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif; */
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(./images/todo1.webp);
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 0 1rem;
+  background-color: rgba(181, 178, 178, 0.882);
+  /* border-radius: 90px; */
+  /* height: 700px; */
+  /* max-height: 10000px; */
+  padding-bottom: 30px;
+}
+
+h1 {
+  margin-top: 1.5rem;
+  text-align: center;
+  /* font-weight: 1000; */
+  font-family: "Chela One", cursive;
+  font-family: "Gloock", serif;
+  font-family: "Oswald", sans-serif;
+  font-family: "Playfair Display", serif;
+}
+
+.top {
+  margin-top: 1.5rem;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+input {
+  border: azure;
+  /* outline: none; */
+  width: 400px;
+  padding: 0.5rem;
+  border-radius: 44px;
+  /* border-bottom: 1px solid #000; */
+}
+
+.add {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+  border-radius: 20px;
+}
+
+.todo {
+  position: relative;
+  margin-top: 1rem;
+  background-color: #000;
+  color: #fff;
+  padding: 1.2rem 3rem;
+  border-radius: 57px;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 20px;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.icon {
+  cursor: pointer;
+  font-size: 20px;
+}
